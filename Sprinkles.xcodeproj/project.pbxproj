@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0131611E19C7FD0096D900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0131601E19C7FD0096D900 /* AppDelegate.swift */; };
+		6D0131631E19C7FD0096D900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0131621E19C7FD0096D900 /* ViewController.swift */; };
+		6D0131661E19C7FD0096D900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0131641E19C7FD0096D900 /* Main.storyboard */; };
+		6D0131681E19C7FD0096D900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0131671E19C7FD0096D900 /* Assets.xcassets */; };
+		6D01316B1E19C7FD0096D900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0131691E19C7FD0096D900 /* LaunchScreen.storyboard */; };
+		6D0131761E19C7FD0096D900 /* SprinklesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0131751E19C7FD0096D900 /* SprinklesTests.swift */; };
+		6D0131811E19C7FD0096D900 /* SprinklesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0131801E19C7FD0096D900 /* SprinklesUITests.swift */; };
+		6D86118D1E1B316700446059 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86118C1E1B316700446059 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D0131721E19C7FD0096D900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0131551E19C7FD0096D900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D01315C1E19C7FD0096D900;
+			remoteInfo = Sprinkles;
+		};
+		6D01317D1E19C7FD0096D900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0131551E19C7FD0096D900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D01315C1E19C7FD0096D900;
+			remoteInfo = Sprinkles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D01315D1E19C7FD0096D900 /* Sprinkles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprinkles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0131601E19C7FD0096D900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D0131621E19C7FD0096D900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D0131651E19C7FD0096D900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D0131671E19C7FD0096D900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D01316A1E19C7FD0096D900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D01316C1E19C7FD0096D900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0131711E19C7FD0096D900 /* SprinklesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprinklesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0131751E19C7FD0096D900 /* SprinklesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprinklesTests.swift; sourceTree = "<group>"; };
+		6D0131771E19C7FD0096D900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D01317C1E19C7FD0096D900 /* SprinklesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprinklesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0131801E19C7FD0096D900 /* SprinklesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprinklesUITests.swift; sourceTree = "<group>"; };
+		6D0131821E19C7FD0096D900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D86118C1E1B316700446059 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D01315A1E19C7FD0096D900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D86118D1E1B316700446059 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D01316E1E19C7FD0096D900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0131791E19C7FD0096D900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0131541E19C7FD0096D900 = {
+			isa = PBXGroup;
+			children = (
+				6D01315F1E19C7FD0096D900 /* Sprinkles */,
+				6D0131741E19C7FD0096D900 /* SprinklesTests */,
+				6D01317F1E19C7FD0096D900 /* SprinklesUITests */,
+				6D01315E1E19C7FD0096D900 /* Products */,
+				6D86118B1E1B316700446059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D01315E1E19C7FD0096D900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D01315D1E19C7FD0096D900 /* Sprinkles.app */,
+				6D0131711E19C7FD0096D900 /* SprinklesTests.xctest */,
+				6D01317C1E19C7FD0096D900 /* SprinklesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D01315F1E19C7FD0096D900 /* Sprinkles */ = {
+			isa = PBXGroup;
+			children = (
+				6D0131601E19C7FD0096D900 /* AppDelegate.swift */,
+				6D0131621E19C7FD0096D900 /* ViewController.swift */,
+				6D0131641E19C7FD0096D900 /* Main.storyboard */,
+				6D0131671E19C7FD0096D900 /* Assets.xcassets */,
+				6D0131691E19C7FD0096D900 /* LaunchScreen.storyboard */,
+				6D01316C1E19C7FD0096D900 /* Info.plist */,
+			);
+			path = Sprinkles;
+			sourceTree = "<group>";
+		};
+		6D0131741E19C7FD0096D900 /* SprinklesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0131751E19C7FD0096D900 /* SprinklesTests.swift */,
+				6D0131771E19C7FD0096D900 /* Info.plist */,
+			);
+			path = SprinklesTests;
+			sourceTree = "<group>";
+		};
+		6D01317F1E19C7FD0096D900 /* SprinklesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0131801E19C7FD0096D900 /* SprinklesUITests.swift */,
+				6D0131821E19C7FD0096D900 /* Info.plist */,
+			);
+			path = SprinklesUITests;
+			sourceTree = "<group>";
+		};
+		6D86118B1E1B316700446059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D86118C1E1B316700446059 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D01315C1E19C7FD0096D900 /* Sprinkles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0131851E19C7FD0096D900 /* Build configuration list for PBXNativeTarget "Sprinkles" */;
+			buildPhases = (
+				6D0131591E19C7FD0096D900 /* Sources */,
+				6D01315A1E19C7FD0096D900 /* Frameworks */,
+				6D01315B1E19C7FD0096D900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sprinkles;
+			productName = Sprinkles;
+			productReference = 6D01315D1E19C7FD0096D900 /* Sprinkles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D0131701E19C7FD0096D900 /* SprinklesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0131881E19C7FD0096D900 /* Build configuration list for PBXNativeTarget "SprinklesTests" */;
+			buildPhases = (
+				6D01316D1E19C7FD0096D900 /* Sources */,
+				6D01316E1E19C7FD0096D900 /* Frameworks */,
+				6D01316F1E19C7FD0096D900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D0131731E19C7FD0096D900 /* PBXTargetDependency */,
+			);
+			name = SprinklesTests;
+			productName = SprinklesTests;
+			productReference = 6D0131711E19C7FD0096D900 /* SprinklesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D01317B1E19C7FD0096D900 /* SprinklesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D01318B1E19C7FD0096D900 /* Build configuration list for PBXNativeTarget "SprinklesUITests" */;
+			buildPhases = (
+				6D0131781E19C7FD0096D900 /* Sources */,
+				6D0131791E19C7FD0096D900 /* Frameworks */,
+				6D01317A1E19C7FD0096D900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D01317E1E19C7FD0096D900 /* PBXTargetDependency */,
+			);
+			name = SprinklesUITests;
+			productName = SprinklesUITests;
+			productReference = 6D01317C1E19C7FD0096D900 /* SprinklesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0131551E19C7FD0096D900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Michael Tang";
+				TargetAttributes = {
+					6D01315C1E19C7FD0096D900 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KRSWH4Y4D5;
+						ProvisioningStyle = Automatic;
+					};
+					6D0131701E19C7FD0096D900 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D01315C1E19C7FD0096D900;
+					};
+					6D01317B1E19C7FD0096D900 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D01315C1E19C7FD0096D900;
+					};
+				};
+			};
+			buildConfigurationList = 6D0131581E19C7FD0096D900 /* Build configuration list for PBXProject "Sprinkles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D0131541E19C7FD0096D900;
+			productRefGroup = 6D01315E1E19C7FD0096D900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D01315C1E19C7FD0096D900 /* Sprinkles */,
+				6D0131701E19C7FD0096D900 /* SprinklesTests */,
+				6D01317B1E19C7FD0096D900 /* SprinklesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D01315B1E19C7FD0096D900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D01316B1E19C7FD0096D900 /* LaunchScreen.storyboard in Resources */,
+				6D0131681E19C7FD0096D900 /* Assets.xcassets in Resources */,
+				6D0131661E19C7FD0096D900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D01316F1E19C7FD0096D900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D01317A1E19C7FD0096D900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0131591E19C7FD0096D900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0131631E19C7FD0096D900 /* ViewController.swift in Sources */,
+				6D0131611E19C7FD0096D900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D01316D1E19C7FD0096D900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0131761E19C7FD0096D900 /* SprinklesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0131781E19C7FD0096D900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0131811E19C7FD0096D900 /* SprinklesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D0131731E19C7FD0096D900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D01315C1E19C7FD0096D900 /* Sprinkles */;
+			targetProxy = 6D0131721E19C7FD0096D900 /* PBXContainerItemProxy */;
+		};
+		6D01317E1E19C7FD0096D900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D01315C1E19C7FD0096D900 /* Sprinkles */;
+			targetProxy = 6D01317D1E19C7FD0096D900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D0131641E19C7FD0096D900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0131651E19C7FD0096D900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D0131691E19C7FD0096D900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D01316A1E19C7FD0096D900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D0131831E19C7FD0096D900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D0131841E19C7FD0096D900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0131861E19C7FD0096D900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KRSWH4Y4D5;
+				INFOPLIST_FILE = Sprinkles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.Sprinkles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D0131871E19C7FD0096D900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KRSWH4Y4D5;
+				INFOPLIST_FILE = Sprinkles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.Sprinkles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6D0131891E19C7FD0096D900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SprinklesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.SprinklesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprinkles.app/Sprinkles";
+			};
+			name = Debug;
+		};
+		6D01318A1E19C7FD0096D900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SprinklesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.SprinklesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprinkles.app/Sprinkles";
+			};
+			name = Release;
+		};
+		6D01318C1E19C7FD0096D900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SprinklesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.SprinklesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sprinkles;
+			};
+			name = Debug;
+		};
+		6D01318D1E19C7FD0096D900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SprinklesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.SprinklesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sprinkles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0131581E19C7FD0096D900 /* Build configuration list for PBXProject "Sprinkles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0131831E19C7FD0096D900 /* Debug */,
+				6D0131841E19C7FD0096D900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0131851E19C7FD0096D900 /* Build configuration list for PBXNativeTarget "Sprinkles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0131861E19C7FD0096D900 /* Debug */,
+				6D0131871E19C7FD0096D900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0131881E19C7FD0096D900 /* Build configuration list for PBXNativeTarget "SprinklesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0131891E19C7FD0096D900 /* Debug */,
+				6D01318A1E19C7FD0096D900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D01318B1E19C7FD0096D900 /* Build configuration list for PBXNativeTarget "SprinklesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D01318C1E19C7FD0096D900 /* Debug */,
+				6D01318D1E19C7FD0096D900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0131551E19C7FD0096D900 /* Project object */;
+}
